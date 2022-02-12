@@ -9,6 +9,7 @@ function App() {
   const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
+    // eslint-disable-next-line
     if (category === 'all') {
       setMenuItems(items);
       return;
